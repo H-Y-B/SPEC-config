@@ -1,0 +1,2 @@
+# SPEC-config
+SPEC compile
