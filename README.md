@@ -11,7 +11,7 @@ riscv
 
 x86
 	spec06: 4.8,5
-	spec17: 
+	spec17: 7.5.0 
 	
 
 ### run
@@ -19,23 +19,31 @@ x86
 spec06
 
 *	runspec --config=???.cfg --action setup/run ???
+>   defualt: --size=ref (ref\test\train)
+>            --tune=base (base\ref\all)
 
 spec17
 
 *	runcpu  --config=???.cfg --action setup/run ???
+>   defualt: --size=ref (ref\test\train)
+>            --tune=base (base\ref\all)
 
 ### probleam
 
 riscv-spec06
+
 	ok
 
 riscv-spec17
+
 	unknown
 
 x86-spec06
+
 	unknown
 
 x86-spec17
+
 	intrate :  ok
 	
 	intspeed:  
