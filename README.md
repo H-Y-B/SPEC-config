@@ -47,8 +47,7 @@ x86-spec17
 
 	intrate :  ok
 	
-	intspeed:  
-	657:  error
+	intspeed:  ok
 	
 	fprate  :  ok 
 	
