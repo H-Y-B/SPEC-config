@@ -33,6 +33,7 @@ spec17
 riscv-spec06
 
 	ok
+	416:add -std-legacy in FORTIMIZE
 
 riscv-spec17
 
