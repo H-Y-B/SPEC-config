@@ -6,12 +6,12 @@ SPEC compile
 ### Compiler Version(gcc/g++/gfortran)
 
 riscv
-	spec06: 9.2.0
-	spec17: 9.2.0
+*	spec06: 9.2.0
+*	spec17: 9.2.0
 
 x86
-	spec06: 4.8,5
-	spec17: 7.5.0 
+*	spec06: 4.8,5
+*	spec17: 7.5.0 
 	
 
 ### run
@@ -28,7 +28,7 @@ spec17
 >   defualt: --size=ref (ref\test\train)
 >            --tune=base (base\ref\all)
 
-### probleam
+### status
 
 riscv-spec06
 
@@ -49,7 +49,7 @@ x86-spec17
 	intspeed:  
 	657:  error
 	
-	fprate  : ok 
+	fprate  :  ok 
 	
 	fpspeed :
 	603:  error
