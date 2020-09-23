@@ -41,7 +41,7 @@ riscv-spec17
 
 x86-spec06
 
-	unknown
+	ok
 
 x86-spec17
 
