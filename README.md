@@ -17,6 +17,8 @@ x86
 
 [416.gamess STOP IN ABRT](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=69368)
 
+[416.gamess STOP IN ABRT](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=56993)
+
 ### run
 
 spec06
