@@ -69,3 +69,5 @@ x86-spec17
 sudo mount -t iso9660 cpu2017-1_0.iso ./cpu2017
 
 aarch64: https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/
+
+https://blog.csdn.net/wlmnzf/article/details/83110433
