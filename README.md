@@ -64,3 +64,6 @@ x86-spec17
 
 
 
+### others
+
+sudo mount -t iso9660 cpu2017-1_0.iso ./cpu2017
