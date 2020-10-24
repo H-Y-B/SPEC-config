@@ -43,16 +43,25 @@ spec17
 
 riscv-spec06
 
-	ok
-	416:add ‘-std=legacy’ in FORTIMIZE
+	compile
+		ok
+		416:add ‘-std=legacy’ in FORTIMIZE
+	run
+		unknown
 
 riscv-spec17
 
-	unknown
+	compile
+		ok
+	run
+		unknown
 
 x86-spec06
 
-	ok
+	compile
+		ok
+	run
+		ok
 
 x86-spec17
 
