@@ -31,13 +31,13 @@ spec06
 
 *	runspec --config=???.cfg --action setup/run ???
 >   defualt: --size=ref (ref\test\train)
->            --tune=base (base\ref\all)
+>            --tune=base (base\peak\all)
 
 spec17
 
 *	runcpu  --config=???.cfg --action setup/run ???
 >   defualt: --size=ref (ref\test\train)
->            --tune=base (base\ref\all)
+>            --tune=base (base\peak\all)
 
 ### status
 
