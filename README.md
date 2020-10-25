@@ -16,8 +16,8 @@ x86
 
 arm
 
-* spec06: gcc version 4.9.4 (Linaro GCC 4.9-2017.01)
-* spec17: [gcc version 7.5.0 (Linaro GCC 7.5-2019.12)](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/)
+* spec06: aarch64-linux-gnu 4.9.4 (Linaro GCC 4.9-2017.01)    arm-linux-gnueabihf 4.9.4
+* spec17: [aarch64-linux-gnu 7.5.0 (Linaro GCC 7.5-2019.12)](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/)
 
 ### bug
 
