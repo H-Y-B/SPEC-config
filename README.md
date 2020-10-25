@@ -17,7 +17,7 @@ x86
 arm
 
 * spec06: aarch64-linux-gnu 4.9.4 (Linaro GCC 4.9-2017.01)    arm-linux-gnueabihf 4.9.4
-* spec17: [aarch64-linux-gnu 7.5.0 (Linaro GCC 7.5-2019.12)](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/)
+* spec17: [aarch64-linux-gnu 7.5.0 (Linaro GCC 7.5-2019.12)](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/)    arm-linux-gnueabihf 7.5.0
 
 ### bug
 
@@ -39,88 +39,7 @@ spec17
 >   defualt: --size=ref (ref\test\train)
 >            --tune=base (base\peak\all)
 
-### status
 
-riscv-spec06
-
-	compile
-		ok
-		416:add ‘-std=legacy’ in FORTIMIZE
-	run
-		unknown
-
-riscv-spec17
-
-	compile
-	-intrate-base-test/ref
-		525 ERROR: Copying input files to first run directory at ****** FAILED
-	-intspeed-base-test/ref
-		625 ERROR: Copying input files to first run directory at ****** FAILED
-	-fprate-base-test/ref
-		ok
-	-fpspeed-base-test/ref
-		ok
-		
-	run
-		unknown
-
-x86-spec06
-
-	compile
-		ok
-	run
-		ok
-
-x86-spec17
-
-	intrate :  ok
-	
-	intspeed:  ok
-	
-	fprate  :  ok 
-	
-	fpspeed :
-	603:  error
-	627:  error
-	649:  error
-	654:  error
-
-arm-spec06
-
-```
-compile: 
--int-base-test/ref  
-	ok
--fp-base-test/ref  
-	481.wrf  undefined reference to 'nf_strerror_'
-		     undefined reference to 'nf_put_vara_text_'
-    undefined reference to NetCDF functions
-    
-run
-	unknown
-```
-
-arm-spec17
-
-```
-unknown
-
-compile:
--intrate-base-test/ref
-	525 ERROR: Copying input files to first run directory at ****** FAILED
--intspeed-base-test/ref
-	625 ERROR: Copying input files to first run directory at ****** FAILED
--fprate-base-test/ref
-	ok
--fpspeed-base-test/ref
-	ok
-	
-run
--intrate-base-test   unknown  
--intspeed-base-test  unknown
--fprate-base-test    unknown
--fpspeed-base-test   unknown
-```
 
 ### others
 
