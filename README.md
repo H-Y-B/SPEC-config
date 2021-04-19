@@ -35,7 +35,7 @@ spec06
 
 spec17
 
-*	runcpu  --config=???.cfg --action setup/run ???
+*	runcpu  --config=???.cfg --action setup/run ???（'fprate', 'fpspeed', 'intrate', 'intspeed' or 'all'）
 >   defualt: --size=ref (ref\test\train)
 >            --tune=base (base\peak\all)
 
