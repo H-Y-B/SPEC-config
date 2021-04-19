@@ -43,7 +43,7 @@ spec17
 
 ### others
 
-sudo mount -t iso9660 cpu2017-1_0.iso ./cpu2017
+sudo mount -o loop cpu2017-1.1.0.iso ./cpu2017
 
 wget https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.20.tar.xz
 
