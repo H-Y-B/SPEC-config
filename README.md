@@ -39,6 +39,11 @@ spec17
 >   defualt: --size=ref (ref\test\train)
 >            --tune=base (base\peak\all)
 
+> There are several different ways to measure computer performance:
+> 
+> One way is to measure how fast the computer completes a single task; this is a speed measure. 
+> 
+> Another way is to measure how many tasks a computer can accomplish in a certain amount of time; this is called a throughput, capacity or rate measure.
 
 
 ### others
