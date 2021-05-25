@@ -21,9 +21,11 @@ arm
 
 ### bug
 
-[416.gamess STOP IN ABRT](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=69368)
+[spec06-416.gamess STOP IN ABRT](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=69368)
 
-[416.gamess STOP IN ABRT](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=56993)
+[spec06-416.gamess STOP IN ABRT](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=56993)
+
+[spec06-481:Type mismatch between actual argument at...](https://github.com/GlobalArrays/ga/issues/157)
 
 ### run
 
